@@ -7,8 +7,8 @@ body {
   min-height: 100vh;
   position: relative;
   font-family: "Black Ops One", sans-serif;
-  background: #071A0D;
-  color: #E7F5E8;
+  background: #141210;
+  color: #F2ECDD;
 }
 
 #app {
@@ -29,11 +29,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid #376A43;
+  border-bottom: 1px solid #3A362E;
 }
 
 .brand {
-  color: #72C96B;
+  color: #D8CBA5;
   text-decoration: none;
   font-family: "Orbitron", sans-serif;
   font-size: 16px;
@@ -42,8 +42,8 @@ body {
 .brand-mark {
   display: inline-block;
   margin-right: 8px;
-  color: #071A0D;
-  background: #72C96B;
+  color: #141210;
+  background: #D8CBA5;
   border-radius: 50%;
   padding: 5px 8px;
 }
@@ -52,7 +52,7 @@ body {
 .kicker,
 .section-label,
 .date-label {
-  color: #72C96B;
+  color: #D8CBA5;
   font-family: "Orbitron", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -74,7 +74,7 @@ h1 {
 }
 
 h1 span {
-  color: #B8F2A7;
+  color: #FFF8E6;
 }
 
 h2 {
@@ -82,7 +82,7 @@ h2 {
 }
 
 p {
-  color: #A9C4A9;
+  color: #B5AC98;
   line-height: 1.6;
 }
 
@@ -91,8 +91,8 @@ p {
   align-items: end;
   gap: 12px;
   padding: 16px;
-  background: #0F2A18;
-  border: 1px solid #376A43;
+  background: #1C1A16;
+  border: 1px solid #3A362E;
   border-radius: 10px 10px 0 0;
 }
 
@@ -101,31 +101,31 @@ p {
   flex-direction: column;
   gap: 6px;
   width: 220px;
-  color: #A9C4A9;
+  color: #B5AC98;
   font-size: 12px;
 }
 
 input[type="date"] {
   height: 40px;
   padding: 8px;
-  color: #E7F5E8;
-  background: #071A0D;
-  border: 1px solid #376A43;
+  color: #F2ECDD;
+  background: #141210;
+  border: 1px solid #3A362E;
   border-radius: 6px;
 }
 
 button {
   min-height: 40px;
   padding: 8px 14px;
-  color: #E7F5E8;
-  background: #1E5A2D;
-  border: 1px solid #376A43;
+  color: #F2ECDD;
+  background: #2B2820;
+  border: 1px solid #3A362E;
   border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #2D7A3A;
+  background: #3D392E;
 }
 
 button:disabled {
@@ -136,8 +136,8 @@ button:disabled {
 .apod-card {
   min-height: 400px;
   padding: 30px;
-  background: #0F2A18;
-  border: 1px solid #376A43;
+  background: #1C1A16;
+  border: 1px solid #3A362E;
   border-top: 0;
   border-radius: 0 0 10px 10px;
 }
@@ -153,8 +153,8 @@ button:disabled {
 .loader {
   width: 32px;
   height: 32px;
-  border: 3px solid #376A43;
-  border-top-color: #72C96B;
+  border: 3px solid #3A362E;
+  border-top-color: #D8CBA5;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -208,35 +208,35 @@ button:disabled {
 }
 
 .explanation {
-  color: #A9C4A9;
+  color: #B5AC98;
   line-height: 1.8;
 }
 
 .metadata {
   margin: 0;
   padding-left: 20px;
-  border-left: 1px solid #376A43;
+  border-left: 1px solid #3A362E;
 }
 
 .metadata dt {
   margin-top: 12px;
-  color: #72C96B;
+  color: #D8CBA5;
   font-size: 12px;
   text-transform: uppercase;
 }
 
 .metadata dd {
   margin: 4px 0;
-  color: #E7F5E8;
+  color: #F2ECDD;
 }
 
 .source-link {
-  color: #B8F2A7;
+  color: #FFF8E6;
   text-decoration: none;
 }
 
 .source-link:hover {
-  color: #72C96B;
+  color: #D8CBA5;
 }
 
 .error-state {
@@ -246,8 +246,8 @@ button:disabled {
 }
 
 .error-icon {
-  color: #071A0D;
-  background: #72C96B;
+  color: #141210;
+  background: #D8CBA5;
   border-radius: 50%;
   padding: 10px 15px;
   font-size: 20px;
@@ -255,7 +255,7 @@ button:disabled {
 
 .site-footer {
   padding: 25px 0;
-  color: #A9C4A9;
+  color: #B5AC98;
   text-align: center;
   font-size: 12px;
 }
@@ -268,7 +268,7 @@ body::after {
   bottom: 0;
   z-index: 0;
   width: 60px;
-  background: #376A43;
+  background: #3A362E;
   opacity: 0.35;
   pointer-events: none;
   clip-path: polygon(
@@ -326,7 +326,7 @@ body::after {
   .metadata {
     margin-top: 25px;
     padding: 20px 0 0;
-    border-top: 1px solid #376A43;
+    border-top: 1px solid #3A362E;
     border-left: 0;
   }
 

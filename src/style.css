@@ -20,6 +20,8 @@
 
 * { box-sizing: border-box; }
 
+p { font-family: "Black Ops One", sans-serif; }
+
 body {
   min-width: 320px;
   min-height: 100vh;
@@ -117,7 +119,7 @@ figcaption { padding: 9px 13px; color: var(--muted); font-size: 0.7rem; }
 .site-footer { justify-content: center; gap: 12px; padding-top: 24px; color: var(--muted); font-size: 0.7rem; letter-spacing: 0.04em; }
 .footer-dot { color: var(--moss); }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   body::before, body::after { display: none; }
   .site-shell { width: min(100% - 28px, 1100px); padding-top: 18px; }
   .site-header { align-items: flex-start; flex-direction: column; gap: 16px; }

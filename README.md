@@ -3,7 +3,9 @@ Cosmic Daily
 Cosmic daily is a website that shows you NASA’s astronomy picture of the day.
 
 To use it you will need Node.js 20 or newer.
+
 A GitHub account if you wish to publish your own version of the site with Github pages.
+
 A NASA API key that you can get for free.
 
 To run it locally you will do this:

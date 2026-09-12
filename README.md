@@ -27,3 +27,5 @@ If you want to deploy it to Github Pages you will follow these steps:
 Add the repository secret VITE_NASA_API_KEY at settings-secrets and variables-actions if you are using your own NASA API.
 Enable settings-pages-github actions.
 Push the main branch. Build list and deploy it.
+
+Don't forget to have fun!!

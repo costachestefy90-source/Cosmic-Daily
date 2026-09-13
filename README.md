@@ -8,7 +8,7 @@ I added one YouTube bookmark and Wikipedia because I use them when I want a quic
 
 I added the small “You rock!” box because I wanted the page to feel a little more friendly.
 
-## I ran it locally
+I ran it locally
 
 I used Node.js 20 or newer. In the project folder I ran:
 
@@ -19,7 +19,7 @@ npm run dev
 
 I opened the localhost address that Vite showed me.
 
-## I published it
+I published it
 
 I kept the GitHub Pages workflow in `.github/workflows/deploy.yml`. When I push the `main` branch, GitHub builds the page and publishes the `dist` folder.
 
@@ -27,8 +27,5 @@ I changed the Vite base path to `/Cosmic-Launchpad/` because I renamed the repos
 
 I published my site at https://costachestefy90-source.github.io/Cosmic-Launchpad/.
 
-## I kept the project small
-
 I used one HTML page, one stylesheet, one JavaScript file, and one photo. I did not need an API key for this version.
 
-I tested the production build before I pushed it.

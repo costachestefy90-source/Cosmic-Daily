@@ -87,11 +87,9 @@ h1 {
   display: flex;
   width: 100%;
   overflow: hidden;
-  background: rgb(246 241 223 / 22%);
-  border: 1px solid rgb(255 253 244 / 34%);
+  background: rgb(246 241 223 / 92%);
+  border: 1px solid rgb(255 253 244 / 55%);
   border-radius: 18px;
-  backdrop-filter: blur(16px) saturate(135%);
-  -webkit-backdrop-filter: blur(16px) saturate(135%);
   box-shadow: 0 14px 38px rgb(4 18 12 / 28%);
 }
 
@@ -99,25 +97,24 @@ h1 {
   width: 100%;
   min-width: 0;
   padding: 16px 18px;
-  color: var(--white);
+  color: var(--green-dark);
   background: transparent;
   border: 0;
   outline: 0;
   font-size: 17px;
 }
 
-.search-form input::placeholder { color: rgb(255 253 244 / 78%); }
+.search-form input::placeholder { color: rgb(11 36 25 / 62%); }
 
 .search-form button {
   padding: 0 22px;
   color: var(--cream);
-  background: rgb(11 36 25 / 52%);
+  background: var(--green);
   border: 0;
-  border-left: 1px solid rgb(255 253 244 / 22%);
   cursor: pointer;
 }
 
-.search-form button:hover { background: rgb(11 36 25 / 76%); }
+.search-form button:hover { background: var(--green-dark); }
 
 .search-form button:focus-visible,
 .search-form input:focus-visible,
@@ -138,17 +135,15 @@ h1 {
 .bookmarks a {
   padding: 9px 13px;
   color: var(--white);
-  background: rgb(11 36 25 / 34%);
+  background: rgb(11 36 25 / 78%);
   border: 1px solid rgb(255 253 244 / 22%);
   border-radius: 999px;
-  backdrop-filter: blur(12px) saturate(130%);
-  -webkit-backdrop-filter: blur(12px) saturate(130%);
   text-decoration: none;
   transition: background-color 160ms ease, transform 160ms ease;
 }
 
 .bookmarks a:hover {
-  background: rgb(22 61 44 / 65%);
+  background: rgb(22 61 44 / 92%);
   transform: translateY(-2px);
 }
 
@@ -156,15 +151,14 @@ h1 {
   position: fixed;
   left: clamp(18px, 4vw, 56px);
   bottom: 24px;
-  padding: 9px 13px;
-  color: var(--white);
-  background: rgb(11 36 25 / 36%);
-  border: 1px solid rgb(255 253 244 / 22%);
-  border-radius: 10px;
-  backdrop-filter: blur(12px) saturate(130%);
-  -webkit-backdrop-filter: blur(12px) saturate(130%);
-  box-shadow: 0 8px 22px rgb(4 18 12 / 20%);
-  font-size: 14px;
+  padding: 11px 16px;
+  color: var(--green-dark);
+  background: var(--cream);
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgb(4 18 12 / 38%);
+  font-size: 16px;
+  font-weight: bold;
   animation: encouragement-in 500ms ease-out both;
 }
 

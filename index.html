@@ -3,12 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Explore NASA's Astronomy Picture of the Day." />
-    <link rel="preconnect" href="https://api.nasa.gov" crossorigin />
-    <title>Cosmic Daily — NASA Astronomy Picture of the Day</title>
+    <meta name="description" content="My simple personal start page." />
+    <title>Cosmic Launchpad</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main class="launchpad">
+        <header class="site-header">
+          <a class="brand" href="./">Cosmic Launchpad</a>
+          <span class="place-label">my start page</span>
+        </header>
+
+        <section class="welcome">
+          <p>my little corner of the internet</p>
+          <h1>Where should I go?</h1>
+
+          <form class="search-form" id="search-form" role="search">
+            <label class="visually-hidden" for="search-input">Search the web</label>
+            <input id="search-input" type="search" placeholder="Search the web" autocomplete="off" />
+            <button type="submit">Search</button>
+          </form>
+
+          <nav class="bookmarks" aria-label="My bookmarks">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://www.youtube.com/feed/subscriptions" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer">Wikipedia</a>
+          </nav>
+        </section>
+
+        <footer class="site-footer">I took this photo.</footer>
+      </main>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -1,31 +1,26 @@
-Cosmic Daily
+# Cosmic Launchpad
 
-Cosmic daily is a website that shows you NASA’s astronomy picture of the day.
+I made Cosmic Launchpad as a small start page for myself. I can search the web from the middle of the page and I can open my bookmarks underneath it.
 
-To use it you will need Node.js 20 or newer.
+I took the waterfall photo in the background myself.
 
-A GitHub account if you wish to publish your own version of the site with Github pages.
+## I ran it locally
 
-A NASA API key that you can get for free.
+I used Node.js 20 or newer. In the project folder I ran:
 
-To run it locally you will do this:
+```text
+npm install
+npm run dev
+```
 
-Npm install
-Npm run dev
+I opened the localhost address that Vite showed me.
 
-Open the localhost shown by Vite.
+## I published it
 
-If you have your own API from NASA and wish to use it, you will copy .env.example to .env and set VITE_NASA_API_KEY, then stop and restart the Vite server.
+I kept the GitHub Pages workflow in `.github/workflows/deploy.yml`. When I push the `main` branch, GitHub builds the page and publishes the `dist` folder.
 
-What it does:
-It load NASA’s Astronomy picture of the day.
-It support Images and videos.
-It lets you browse by date from June 16, 1995 onward.
-And saves favorites in the browser with localStorage.
+I changed the Vite base path to `/Cosmic-Launchpad/` because I renamed the repository.
 
-If you want to deploy it to Github Pages you will follow these steps:
-Add the repository secret VITE_NASA_API_KEY at settings-secrets and variables-actions if you are using your own NASA API.
-Enable settings-pages-github actions.
-Push the main branch. Build list and deploy it.
+## I kept the project small
 
-Don't forget to have fun!!
+I used one HTML page, one stylesheet, one JavaScript file, and one photo. I did not need an API key for this version.

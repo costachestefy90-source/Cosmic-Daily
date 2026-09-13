@@ -4,7 +4,9 @@ I made Cosmic Launchpad as a small start page for myself. I can search the web f
 
 I took the waterfall photo in the background myself.
 
-I made the first YouTube bookmark open YouTube and the second one open my subscriptions. I added Wikipedia because I use it when I want a quick place to look something up.
+I added one YouTube bookmark and Wikipedia because I use them when I want a quick place to go or look something up.
+
+I added the small “You rock!” box because I wanted the page to feel a little more friendly.
 
 ## I ran it locally
 
